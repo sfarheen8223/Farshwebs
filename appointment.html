@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Book Appointment - FARSH WEBS</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>FARSH WEBS</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="appointment.html" class="active">Appointment</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="appointment-page">
+    <h2>Book an Appointment</h2>
+    <p>Enter your details and we’ll contact you to schedule a quick consultation.</p>
+
+    <!-- Appointment Form -->
+    <form action="https://formspree.io/f/mqawanyk" method="POST" class="appointment-form">
+      <label for="name">Full Name:</label>
+      <input type="text" id="name" name="name" required placeholder="Enter your full name">
+
+      <label for="phone">Phone Number:</label>
+      <input type="tel" id="phone" name="phone" required placeholder="e.g. 929-204-1576">
+
+      <button type="submit" class="btn">Submit</button>
+    </form>
+  </main>
+
+  <footer>
+    <p>📞 <a href="tel:+19292041576">929-204-1576</a> | 📧 <a href="mailto:farshwebsllc@gmail.com">farshwebsllc@gmail.com</a></p>
+    <p>© 2025 FARSHWEBS. All rights reserved.</p>
+  </footer>
+</body>
+</html>
